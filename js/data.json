@@ -1,0 +1,98 @@
+[{
+            "name":"Google Pixe",
+            "pic":"img/products/googlePixe.jpg",
+            "specification":{
+                "Height": "147.46mm",
+                "Thickness":"8.5mm",
+                "Battery":"3100mAh",
+                "ROM":"128GB",
+                "Width":"72.68mm",
+                "Weight":"170g",
+                "RAM":"8GB"},
+            "price":"$226.39"},
+           
+
+            {"name":"HTC One 2",
+            "pic":"img/products/HTCOne2.jpg",
+            "specification":{
+                "Height": "147.46mm",
+                "Thickness":"8.5mm",
+                "Battery":"3100mAh",
+                "ROM":"128GB",
+                "Width":"72.68mm",
+                "Weight":"163g",
+                "RAM":"8GB"},
+            "price":"$226.39"},
+
+            {"name":"Iphone X",
+            "pic":"img/products/iphone-x.png",
+            "specification":{
+                "Height": "147.46mm",
+                "Thickness":"8.5mm",
+                "Battery":"3100mAh",
+                "ROM":"128GB",
+                "Width":"72.68mm",
+                "Weight":"170g",
+                "RAM":"8GB"},
+            "price":"$226.39"},
+
+            {"name":"Samsung Galaxy 8",
+            "pic":"img/products/Galaxy8.png",
+            "specification":{
+                "Height": "147.46mm",
+                "Thickness":"8.5mm",
+                "Battery":"3100mAh",
+                "ROM":"128GB",
+                "Width":"72.68mm",
+                "Weight":"170g",
+                "RAM":"8GB"},
+            "price":"$226.39"},
+
+            {"name":"Ipad Pro",
+            "pic":"img/products/ipadPro.jpg",
+            "specification":{
+                "Height": "147.46mm",
+                "Thickness":"8.5mm",
+                "Battery":"3100mAh",
+                "ROM":"128GB",
+                "Width":"72.68mm",
+                "Weight":"170g",
+                "RAM":"8GB"},
+            "price":"$226.39"},
+
+            {"name":"MacBook Pro",
+            "pic":"img/products/macbook-pro.jpg",
+            "specification":{
+                "Height": "147.46mm",
+                "Thickness":"8.5mm",
+                "Battery":"3100mAh",
+                "ROM":"128GB",
+                "Width":"72.68mm",
+                "Weight":"170g",
+                "RAM":"8GB"},
+            "price":"$226.39"},
+
+            {"name":"Xiaomi Mi3",
+            "pic":"img/products/Mi3PSD.jpg",
+            "specification":{
+                "Height": "147.46mm",
+                "Thickness":"8.5mm",
+                "Battery":"3100mAh",
+                "ROM":"128GB",
+                "Width":"72.68mm",
+                "Weight":"170g",
+                "RAM":"8GB"},
+            "price":"$226.39"},
+
+            {"name":"Microsoft Surface Pro",
+            "pic":"img/products/Surface_Pro.jpg",
+            "specification":{
+                "Height": "147.46mm",
+                "Thickness":"8.5mm",
+                "Battery":"3100mAh",
+                "ROM":"128GB",
+                "Width":"72.68mm",
+                "Weight":"170g",
+                "RAM":"8GB"},
+            "price":"$226.39"}
+        ]
