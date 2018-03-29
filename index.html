@@ -4,66 +4,54 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    
-
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
     <!-- OthersCSS -->
-    
     <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:700' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto:100' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" type="image/png" href="img/logopeque.png" sizes="10x10" />
     <title>Ecommerce Website Concept Desing </title>
     
-    <!-- JavaScript -->
-    
-    <script src="js/main.js"></script>
-    <script type="text/javascript"src="js/data.json"></script>
-   
-
   </head>
+
   <body>
     <!-- Navbar -->
-      <div class="container-fluid bg-dark ">
-        <div class="row justify-content-md-center nav1">
-          <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <section>
+              <nav class="navbar navbar-expand-md navbar-dark bg-dark colorNav">
                   <a class="navbar-brand" href="#"></a>
                   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                   </button>
                   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-             <div class="navbar-nav">
-                <a class="nav-item nav-link text-light mr-5" href="#">Laptop</a>
-                <a class="nav-item nav-link text-light mr-5" href="#">Tablet</a>
-                <a class="nav-item nav-link  text-light mr-5" href="#">Smartphone</a>
-                <a class="nav-item nav-link text-light mr-5" href="#">Watch</a>
-                <a class="nav-item nav-link text-light mr-5" href="#">TV</a>
-                <a class="nav-item nav-link text-light mr-5" href="#">Accesories</a>
+              <div class="navbar-nav" id="navbarToggle">
+                <a class="nav-item nav-link text-light mr-5" href="#">Home</a>
+                <a class="nav-item nav-link text-light mr-5" href="#">About Us</a>
+                <a class="nav-item nav-link  text-light mr-5" href="#">Products</a>
+                <a class=" nav-item nav-link  text-light mr-5 sliding-link" href="#goTo">Contact</a>
                 <a class="nav-item nav-link text-light mr-5" href="#">Support</a>
                 <a class="nav-link text-light " href="#">
-                  <i class="fas fa-cart-arrow-down"> </i>
+                        <i class="fas fa-cart-arrow-down"> </i>
                 </a>
                 <a class="nav-link text-light " href="#">
-                <i class="fas fa-search"></i>
+                       <i class="fas fa-search"></i>
                 </a>
-                <a class="nav-link text-light " href="#">
-                 <i class="fas fa-sign-in-alt"></i>
-                </a>
+                <a class="nav-link text-light" href="#">
+                       <i class="fas fa-sign-in-alt"></i>
+                 </a>
+                
+                </div>     
              </div>
-          </nav>
-        </div>
-        </div>
-    
+          </nav>    
+        </section>  
     <!-- Fin Navbar -->
     <!-- Container1-->
         <div class="container-fluid color1">
           <dic class="row">
             <div class="col-12">
               <h2 class="font-weight-bold " >iPhone X</h2>
-              <h5 >Say Hello to the future.</h5>
-              <img class="img-fluid mx-auto d-block" src="img/iphonex.jpeg" alt="">
+              <h5  class="text-center">Say Hello to the future.</h5>
+              <img class="img-fluid mx-auto d-block" src=""alt="">
             </div>
           </dic>
         </div>
@@ -74,8 +62,6 @@
     <div class="flex-container" id="section1"> 
     </div>
   </div>
-
-   </div>
 </section>
 <!-- Fin Container3-->
 <!-- Container4-->
@@ -96,21 +82,57 @@
   </div>
 <!-- Fin Container4-->
 <!-- Footer-->
-<div class="container">
- <div class="row">
-  <p><img src="img/ejemplologo.png" width="53" height="15" alt=""></a>  e-commerce Concept Desing made by <a href="#">Github</a></p>
- </div>
-</div>
 
+<footer class="container-fluid footerCustom">
+    <div class="row"> 
+        <div class="col-4 col-md">
+            <h5>Features</h5>
+            <ul class="list-unstyled text-small">
+                <li><a class="text-muted " href="#">Home</a></li>
+                <li><a class="text-muted" href="#">About Us</a></li>
+                <li><a class="text-muted" href="#">Products</a></li>
+                <li><a class="text-muted " href="#myPage">Contact</a></li>
+                <li><a class="text-muted" href="#">Support</a></li>
+            </ul>
+            </div>
 
-  <!-- End Footer -->
+            <div class="col-4 col-md">
+            <h5>About</h5>
+                <ul class="list-unstyled text-small">
+                  <li><a class="text-muted" href="#">Team</a></li>
+                  <li><a class="text-muted" href="#">Locations</a></li>
+                  <li><a class="text-muted" href="#">Privacy</a></li>
+                  <li><a class="text-muted" href="#">Terms</a></li>
+                </ul>
+            </div>
+            <section class="col-4 col-md ">
+                <h5>Contact</h5>
+                <form id="goTo">
+                  <div class="form-group">
+                    <input type="email" class="form-control email" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="yourName@emial.com ">
+                  </div>
+                  <div class="form-group">
+                    <input type="password" class="form-control email" id="exampleInputPassword1" placeholder="Password">
+                  </div>
+                </form>
+                <button>Submit</button>  
+              </section>
+            <div class="col-6 col-md"> 
+                <p><img src="img/ejemplologo.png" width="53" height="15" alt=""></a> <p>e-commerce Concept Desing made by </p> 
+                <small class="d-block mb-3 text-muted">&copy; 2017-2018</small>  
+            </div>     
+    </div>
+</footer>
+  <!-- End Footer -->   
+    <!-- JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+    <script type="text/javascript"src="js/data.json"></script>
+    <script type="text/javascript"src="js/animated.js"></script>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
-    
-          
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>    
   </body>
+
 </html>

@@ -2,8 +2,6 @@ class loadProducts {
   constructor(data) {
      this.s1 = document.getElementById("section1");
      this.data = data;
-   
-   
      console.log(data)
   }
      
@@ -40,13 +38,19 @@ class loadProducts {
             boton.innerHTML = "Comprar"
 
             this.s1.appendChild(div1);
-            boton.addEventListener("click", function(){
-            boton.classList.toggle("botoncustom2");
+            boton.addEventListener("mouseover", function(){
+            boton.classList.add("botoncustom2");
             });
+            this.s1.appendChild(div1);
+            boton.addEventListener("mouseout", function(){
+            boton.classList.remove("botoncustom2");
+            });
+
       }
    }
 }
 
+// visualizar productos en pantalla
 
 function loadJson(){
     let jsonUrl = "https://gist.githubusercontent.com/Minacava/54af14dabf840a99645ff4c1a3e156e4/raw/3009115e98bd125c8e778fe7870f99ba564d17a7/gistfile1.txt"

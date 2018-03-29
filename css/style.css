@@ -7,12 +7,27 @@ h2{
     padding-top: 138px;
     font-size: 44px;
   }
-h5,h6{
+h6{
     text-align:center; 
     }
+h5{
+    font-weight:bold;
+}
+h3{
+    color: #89bdd3;
+    text-align: center;
+    font-weight: bold;
+}
 
 p{
     font-size:12px;
+}
+button:focus {
+    outline:0;
+}
+li{
+    list-style:none;
+    text-align: center;
 }
 .flex-container {
     display: flex;
@@ -20,31 +35,39 @@ p{
     justify-content: center;
    
 }
+
 .botonCustom{
-    border-radius: 15px;
-    justify-content: center;
+   border-radius: 15px;
+   justify-content: center;
+   background: white; 
 }
+
 .botoncustom2{
     background: purple;
-    color: white;
+    color: white; 
 }
 /* navbar */
 .navbar-toggler:not(:disabled):not(.disabled) {
     border: none;
-    
+} 
+.navbar-toggler-icon{
+    width:1em;
 }
-.button.navbar-toggle{
-    position:absolute;
-    top: 0;
-    left: 0;
-    width: 48px;
-    height: 48px;
-    }
-.nav1{
-    height: 45px;
+.navbar-toggler {
+    padding:0.2em;
 }
-.topImage{
-    margin-right:0;
+.navbar-dark{
+    background: linear-gradient(-45deg, #89bdd3, #9ad3de)!important;
+    padding:0.2em;
+}
+#navbarToggle{
+    padding-left:10em;
+}
+.nav-item {
+    border-bottom: solid 0.1px;
+}
+.nav-item:hover {
+   color: #e3e3e3;
 }
 /* Containers */
 .divContaner{
@@ -53,11 +76,16 @@ p{
     width:300px;
     padding: 5px;
     margin: 10px;
-   
+    border-radius:10px;
 }
+/* Product Divs Shadow */
+.productShadow{
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+   }
 .customimg{
     width: 100%;
-    height:40%;
+    height:40%;   
 }
 .color1{
     background-color: #FAFAFA;
@@ -84,5 +112,29 @@ p{
     border-right: 5px solid #fff;
     border-left: 5px solid #fff;
     border-bottom: 5px solid #fff;
+    
+    
     }
 /* footer */
+
+.footerCustom{
+    font-size:10px;
+    margin:3px;
+    margin-left: 10%;
+    margin-bottom: 3%;
+}
+
+.email{
+    width: 50%;
+    height: 20%;
+    font-size: 0.9em;
+    border-radius:10%;
+}
+.email:hover{
+    border: 1px solid #F9F0EB;
+}
+section{
+    border-left: 0.2px solid #d1d3d6;
+}
+
+
