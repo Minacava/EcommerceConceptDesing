@@ -63,9 +63,9 @@ li{
 #navbarToggle{
     padding-left:10em;
 }
-.nav-item {
+/* .nav-item {
     border-bottom: solid 0.1px;
-}
+} */
 .nav-item:hover {
    color: #e3e3e3;
 }
@@ -137,4 +137,7 @@ section{
     border-left: 0.2px solid #d1d3d6;
 }
 
-
+@media only screen and (max-width: 768px){ 
+    .nav-item {
+        border-bottom: solid 0.1px;}
+ }
