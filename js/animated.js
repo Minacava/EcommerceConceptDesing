@@ -27,5 +27,20 @@ $(document).hover(function() {
    });
 });
 
-//Botton 
-
+// Buy Now Bottom //
+$(document).hover(function() {
+  $(".botonEvent").mouseenter(function(){ 
+    $(this).addClass('botoncustom2');
+   });
+   $(".botonEvent").mouseleave(function(){ 
+    $(this).removeClass('botoncustom2');
+   });
+});
+$(document).hover(function() {
+  $(".botonEvent1").mouseenter(function(){ 
+    $(this).addClass('botoncustom3');
+   });
+   $(".botonEvent1").mouseleave(function(){ 
+    $(this).removeClass('botoncustom3');
+   });
+});

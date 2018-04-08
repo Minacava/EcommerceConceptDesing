@@ -35,7 +35,7 @@ class loadProducts {
             boton.type = "button";
             boton.classList.add("botonCustom",);
             div1.appendChild(boton);
-            boton.innerHTML = "Comprar"
+            boton.innerHTML = "Select"
 
             this.s1.appendChild(div1);
             boton.addEventListener("mouseover", function(){
@@ -49,6 +49,8 @@ class loadProducts {
       }
    }
 }
+
+
 
 // visualizar productos en pantalla
 
