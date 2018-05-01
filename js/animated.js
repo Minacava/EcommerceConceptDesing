@@ -44,3 +44,16 @@ $(document).hover(function() {
     $(this).removeClass('botoncustom3');
    });
 });
+// Video Review 
+
+$(document).ready(function(){
+  var video = $('video1')[0]
+  $('#play').click(function(){
+    if (video.paused){
+    video.play();
+    }
+    else {
+    video.pause();
+    }
+  });
+});
