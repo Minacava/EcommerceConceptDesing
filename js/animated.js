@@ -45,15 +45,7 @@ $(document).hover(function() {
    });
 });
 // Video Review 
-
-$(document).ready(function(){
-  var video = $('video1')[0]
-  $('#play').click(function(){
-    if (video.paused){
-    video.play();
-    }
-    else {
-    video.pause();
-    }
-  });
-});
+var obj = {"video": {
+  "value": "<iframe title='YouTube video player' type=\"text/html\" width='640' height='390' src='https://www.youtube.com/watch?v=OvVKnC6gGtg' frameborder='0' allowFullScreen></iframe>"
+}}
+$("#gallery").html(obj.video.value);
