@@ -9,15 +9,23 @@ h2{
   }
 h6{
     text-align:center; 
+    color:white;
   }
 h5{
-    font-weight:bold;
     text-align:center; 
+    border-bottom: 1px solid #a0760b;
+   font-weight: bold;
+ 
   }
-h3,h1{
+h3{
     color: #00796B;
     text-align: center;
      }
+h1{
+    color: #00796B;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+        }
 
 p{
     font-size:12px; 
@@ -68,7 +76,8 @@ li{
 
 /* navbar */
 .navbar-dark .navbar-nav .nav-link {
-    color: #FBC02D!important;
+    color: #a0760b!important;
+    font-weight: bolder;
 }
 .navbar-dark .navbar-nav .nav-link:hover {
     color: #FF6F00!important;
@@ -92,12 +101,12 @@ li{
    color: #31886b;
 }
 .icons{
-    margin-right: 0;
+    margin-left: 9em;
 }
 .icon-bar {
-    background-color:#009688 !important;
-    border-radius:0.5em;
-    margin-right: 0.5em;
+    background-color:#a0760b!important;
+    border-radius:0.3em;
+    margin-left: 0.5em;
  }
  .navbar-toggler:not(:disabled):not(.disabled) {
     border:none;
@@ -206,6 +215,17 @@ li{
     color:white;
     font-weight:bold;
 }
+/*addsinert4*/
+.imgAd{
+    width: 100%;
+    height: auto;
+}
+
+.imgAd1{
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    /* margin:1%; */
+}
 /* footer */
 
 .footerCustom{
@@ -215,7 +235,6 @@ li{
     width: 100%;
     border-radius: 1%;
     padding-top: 2%;
-    margin-top: 1%;
 }
 .email{
     width: 50%;
@@ -274,6 +293,10 @@ li{
         font-size:1em;
         text-align: center;
     }
+    .imgAd{
+        width: 100%;
+        height: auto;
+    }
   }
 
 
@@ -297,5 +320,8 @@ li{
    .botonCustom0 .botonCustom1{
         font-size: 2px;
     }
-
+    .imgAd{
+        width: 100%;
+        height: auto;
+    }
   }
