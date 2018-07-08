@@ -1,8 +1,10 @@
 body{
     font-family: 'Roboto', 'sans-serif';
+    background-color:#FAFAFA;
     }
 
 h2{
+    font-family: 'Montserrat', sans-serif;
     text-align:center; 
     font-size: 44px;
     color: white;
@@ -45,45 +47,20 @@ li{
     flex-wrap: wrap;
     justify-content: center;
 }
-.botonCustom{
-   border-radius: 15px;
-   justify-content: center;
-   background: white; 
-}
-.botonCustom0{
-    border-bottom: #FF6F00 1px solid;
-    justify-content: center;
-    color:#444546;
-    margin-top:2%;
-    color:white;
- }
-.botonCustom1{
-    border: 15px;
-    border-bottom: #a0760b 1px solid;
-    justify-content: center;
-    color:#444546;
- }
-.botoncustom2{
-    background: #009688;
-    color: white; 
-    border:none;
-    margin-left: 1em;
-}
-.botoncustom3{
-    background: #009688;
-    color: white; 
-    border:none;
-    margin-right: 1em;
-}
+
 
 /* navbar */
 .navbar-dark .navbar-nav .nav-link {
-    color: #a0760b!important;
+    color: black!important;
     font-weight: bolder;
 }
 .navbar-dark .navbar-nav .nav-link:hover {
     color: #FF6F00!important;
 }
+.navbar-dark .navbar-nav .nav-link:active {
+    color: #FF6F00!important;
+}
+
 .navbar-toggler-icon{
     width:1em;
 }
@@ -132,26 +109,27 @@ li{
     border-radius:10px;
 }
 #Container1{
-    background: url(../img/cover.jpg);
+    /* border:10px solid white;
+    border-radius: 2%; */
+    border-left:50px solid #FAFAFA;
+    border-right: 50px solid #FAFAFA;
+    background: url(../img/cover-c.jpg);
     background-size: cover;
-    height:85vh;
+    height:100vh;
     background-position: center;
     background-repeat: no-repeat;
     width:100%;
 }
+
 .intContainer1{
-    padding-bottom: 0.5%;
+    padding: 2%;
     margin-top:40%;
     margin-left: 1%;
+    width: 50%;
     border-radius: 2px;
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
     background-color: #FBC02D;
-}
-.interContainer2{
-   width: auto;
-   height: 100%;
-   padding: 1%;
-   margin-bottom: none;
+ 
 }
 .interContainer3{
     background-color: #FBC02D;
@@ -170,6 +148,45 @@ li{
     margin-top: 1%;
     margin-right: 0em;
 }
+/* //botones home */
+.botonCustom{
+    border-radius: 15px;
+    justify-content: center;
+    background: white; 
+    margin-bottom: 2%;
+ }
+ .botonCustom0{
+     border-bottom: #FF6F00 3px solid;
+     justify-content: center;
+     color:#444546;
+     margin-top:2%;
+     color:white;
+     margin-bottom: 2%;
+  }
+ .botonCustom1{
+     border: 15px;
+     border-bottom: #a0760b 3px solid;
+     justify-content: center;
+     color:#444546;
+     margin-bottom: 2%;
+  }
+ .botoncustom2{
+     background: #009688;
+     color: white; 
+     border:none;
+     margin-left: 1em;
+     margin-bottom: 2%;
+     border-radius: 5%;
+ }
+ .botoncustom3{
+     background: #009688;
+     color: white; 
+     border:none;
+     margin-right: 1em;
+     margin-bottom: 2%;
+     border-radius: 5%;
+   
+ }
 .imgCover{
     width: 100%;
     height: 600px;
@@ -203,19 +220,20 @@ li{
 .intCard{
     width: 100%;
     height: 100%;
-    box-shadow: 0 1px 3px rgba(61, 60, 60, 0.12), 0 1px 2px rgba(0,0,0,0.24);
     padding:0.3%;
 }
 .inCard1{
     width: 100%;
     height: 100%;
-    box-shadow: 0 1px 3px rgba(61, 60, 60, 0.12), 0 1px 2px rgba(0,0,0,0.24);
     border-radius: 1%;
     padding:0.3%;
 }
 .card-title{
     color:white;
     font-weight:bold;
+    background-color: #444546;
+    opacity: 0.3;
+    width: 30%;
 }
 /*addsinert4*/
 .imgAd{
@@ -284,9 +302,15 @@ li{
     } 
     .intContainer1{
         margin-top:40%;
-        width: 100%;
         max-height: 100%;
+        padding-bottom: 10%;
     }
+    .botonCustom0{
+     display: none;
+     }
+     .botonCustom1{
+         font-size: 20px;
+     }
     .btn-sent{
         width: 40%;
         font-size:1em;

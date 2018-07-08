@@ -14,6 +14,7 @@ class loadProducts {
             name.innerHTML = product.name;
             div1.appendChild(name);
 
+          
             let pic = document.createElement("img");
             pic.setAttribute("src", product.pic); 
             pic.classList.add("img-fluid","customimg");
