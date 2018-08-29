@@ -83,8 +83,7 @@ li{
     margin-left: 9em;
 }
 .icon-bar {
-    background-color:#a0760b!important;
-    border-radius:0.3em;
+    background-color:#FBC02D!important;
     margin-left: 0.5em;
  }
  .navbar-toggler:not(:disabled):not(.disabled) {
@@ -113,7 +112,7 @@ li{
     border-radius: 2%; */
     border-left:50px solid #FAFAFA;
     border-right: 50px solid #FAFAFA;
-    background: url(../img/cover-c.jpg);
+    background: url(../img/cover-c.png);
     background-size: cover;
     height:100vh;
     background-position: center;
@@ -277,9 +276,10 @@ li{
     text-align: left;
 }
 
+
 /*Mobil L*/
 
- @media (max-width: 576px) {
+ @media (max-width: 767px) {
 
     h1{
         font-size: 2em;
